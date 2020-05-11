@@ -59,7 +59,7 @@ aws cloudformation deploy \
   --no-fail-on-empty-changeset \
   --template-file $CF_FILE \
   --parameter-overrides Project=cf_lab2  \
-  --stack-name "my-awesome-stack5" \
+  --stack-name "my-awesome-stack6" \
   --capabilities CAPABILITY_NAMED_IAM
 fi
 
